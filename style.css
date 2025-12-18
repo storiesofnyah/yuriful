@@ -1,0 +1,69 @@
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 1.5rem;
+  border-radius: 20px;
+}
+
+/* General page vibe */
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: #f1f5f8;
+  color: #2a2a2a;
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+/* Headings */
+h2, h3 {
+  }
+
+h1 {
+  text-align: center;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Work list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+}
+
+/* Story body */
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 2rem 0;
+}
+
+.header-image {
+  height: 200px;      /* this controls visible height */
+  overflow: hidden;   /* this does the cropping */
+  
+}
+
+.header-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* this keeps it from stretching */
+}
+
